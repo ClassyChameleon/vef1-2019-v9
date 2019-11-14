@@ -104,7 +104,7 @@ const program = (() => {
     div.setAttribute('class','load');
     const text = document.createElement('p');
     text.append(document.createTextNode('Leita að fyrirtækjum...'));
-    imgElement.setAttribute('src','/loading.gif');
+    imgElement.setAttribute('src','loading.gif');
     div.appendChild(imgElement);
     div.appendChild(text);
     results.appendChild(div);
